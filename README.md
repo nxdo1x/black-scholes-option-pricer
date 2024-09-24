@@ -14,7 +14,7 @@ This project implements the Black-Scholes option pricing model in Python. It pro
 ## Installation
 1. Clone this repository:
    ```bash
-   git clone 
+   git clone https://github.com/nxdo1x/black-scholes-option-pricer.git
    cd black-scholes-option-pricer
 
 2. Install the required libraries:
