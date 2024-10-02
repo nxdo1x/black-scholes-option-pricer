@@ -60,15 +60,3 @@ if st.button('Calculate'):
     sns.heatmap(pnl_data, annot=True, cmap='RdYlGn', center=0, cbar=True, ax=ax)
     st.pyplot(fig)
 
-CREATE TABLE option_data (
-    id INT AUTO_INCREMENT PRIMARY KEY,
-    stock_price FLOAT,
-    strike_price FLOAT,
-    time_to_expiry FLOAT,
-    risk_free_rate FLOAT,
-    volatility FLOAT,
-    call_price FLOAT,
-    put_price FLOAT,
-    call_pnl FLOAT,
-    put_pnl FLOAT
-);
